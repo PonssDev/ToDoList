@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #07091D;
+    color: #333;
+    font-size: 16px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: pink;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.todolist-container {
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+#input {
+    width: 700px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+#add-btn {
+    padding: 15px;
+    background-color: #7545E0;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #5c36ae;
+}
+
+.todolist-items{
+    width: 750px;
+    background-color: pink;
+    
+}
+
+#items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todolist-items li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.task-text{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.delete-btn{
+    background-color: #E04545;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #E04545;
+    padding: 10px;
+    cursor: pointer;
+}
